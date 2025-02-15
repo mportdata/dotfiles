@@ -17,6 +17,8 @@ sudo bash ./macos/macos-defaults.sh
 # Install applications
 #==========================
 
+brew install starship
+
 brew install stow
 
 brew install git
@@ -26,7 +28,7 @@ brew install tmux
 git clone https://github.com/tmux-plugins/tpm ./tmux/.tmux/plugins/tpm
 rm -rf ./tmux/.tmux/plugins/tpm/.git
 
-brew install --HEAD neovim
+brew install neovim
 
 brew install ghostty
 
@@ -44,6 +46,7 @@ brew install bash bc coreutils gawk gh glab gsed jq nowplaying-cli
 #==========================
 
 stow -R zsh
+stow -R starship
 stow -R bash
 stow -R ghostty
 stow -R aerospace

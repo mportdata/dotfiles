@@ -23,4 +23,3 @@ killall Finder
 killall Dock
 
 echo "Done! Changes will take effect immediately."
-
