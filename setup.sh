@@ -35,6 +35,8 @@ brew install ghostty
 brew install rust
 brew install python
 
+brew install fastfetch
+
 #==========================
 # Tmux Tokyo Night theme dependancies
 #==========================
